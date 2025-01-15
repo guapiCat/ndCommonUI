@@ -1,0 +1,99 @@
+$nd-primary-color: #1780E3;
+$nd-success-color: #52C41A;
+$nd-warning-color: #FA8C16;
+$nd-danger-color: #FF4D4F;
+
+$nd-disabled-color: #DDDDDD;
+
+$nd-primary-click-color: #1366B6;
+$nd-success-click-color: #4CAA1E;
+$nd-warning-click-color: #CB6C06;
+$nd-danger-click-color: #DC0002;
+
+$nd-default-border-color: #C6C6C8;
+$nd-default-border2-color: #DCDFE6;
+
+
+$nd-white: #fff;
+$nd-text-color: #333;
+
+$nd-text-color: #333;
+$nd-tab-color: #666;
+$nd-text-color: #333;
+
+$nd-default-bgcolor: #F5F7FA;
+
+$nd-cell-line: #EBEDF0;
+$nd-cell-color: #323233;
+$nd-cell-content-color: #969799;
+
+:root:root {
+  --nd-primary-color: #1780E3;
+  --nd-success-color: #52C41A;
+  --nd-warning-color: #FA8C16;
+  --nd-danger-color: #FF4D4F;
+  --nd-gray1-color: #E9E9EA;
+  --nd-gray2-color: #C6C6C8;
+  --nd-gray3-color: #DCDFE6;
+  --nd-gray4-color: #C8C9CC;
+  --nd-gray5-color: #999999;
+
+  --nd-width1: 80px;
+  --nd-width2: 24px;
+  --nd-width3: 48px;
+
+  --nd-px28: 28px;
+  --nd-px12: 12px;
+
+  --nd-font-size: 14px;
+  --nd-padding-base: 10px;
+  --nd-overlay-rgba: rgba(0, 0, 0, .7);
+
+  --van-sidebar-width: var(--nd-width1);
+  --van-sidebar-selected-border-color: var(--nd-primary-color);
+
+
+  --van-step-circle-width: var(--nd-width2);
+  --van-step-circle-height: var(--nd-width2);
+  --van-step-circle-active-color: var(--nd-primary-color);
+  --van-step-circle-finish-color: var(--nd-primary-color);
+  --van-step-circle-default-color: var(--nd-gray2-color);
+  --van-step-circle-error-color:var(--nd-warning-color);
+
+  --van-circle-inactive-color:var(--nd-gray4-color);
+
+  --van-slider-font-size:var(--nd-font-size);
+  --van-slider-padding-base:var(--nd-padding-base);
+  --van-slider-content-color:var(--nd-gray5-color);
+
+  --van-switch-background-color: var(--nd-gray1-color);
+  --van-switch-on-background-color: var(--nd-success-color);
+
+  --van-dialog-confirm-button-text-color: var(--nd-primary-color);
+  --van-dialog-header-padding-top: var(--nd-width2);
+  --van-tabs-default-color: var(--nd-primary-color);
+
+  --van-image-preview-close-icon-size: var(--nd-width2);
+
+  --van-password-input-height: var(--nd-width3);
+  --van-password-input-font-size: var(--nd-px28);
+  --van-password-input-info-font-size: var(--nd-px12);
+
+  --van-notify-success-background-color: var(--nd-success-color);
+  --van-notify-primary-background-color: var(--nd-primary-color);
+  --van-notify-warning-background-color: var(--nd-warning-color);
+  --van-notify-danger-background-color: var(--nd-danger-color);
+
+  --van-tag-primary-color: var(--nd-primary-color);
+  --van-tag-success-color: var(--nd-success-color);
+  --van-tag-warning-color: var(--nd-warning-color);
+  --van-tag-danger-color: var(--nd-danger-color);
+  --van-tag-line-height: 20px;
+  --van-tag-padding: 0 6px;
+  --van-tag-medium-padding: 0px 6px;
+  --van-tag-large-padding: 1px 8px;
+
+  --van-text-ellipsis-action-color:var(--nd-primary-color);
+  --van-overlay-background: var(--nd-overlay-rgba);
+
+}

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-ac96471c","path":"/standardMD/%E7%BB%84%E4%BB%B6%E5%BA%93%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"standardMD/组件库编写规范.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3a7671d6","path":"/componentMD/Alert%E8%AD%A6%E5%91%8A.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentMD/Alert警告.md"}');export{t as data};

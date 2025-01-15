@@ -1,0 +1,58 @@
+@import "../styles/globalColor.less";
+.beeButton {
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 8px 15px;
+}
+
+.beeButtonPrimary {
+  background: @basicColor;
+}
+
+.beeButtonPrimary:hover {
+  background: @basicHoverColor;
+}
+
+.beeButtonDefault {
+  background: @basicDefaultColor;
+  color: #5f6d7f;
+}
+
+.beeButtonDefault:hover {
+  background: @basicDefaultHoverColor;
+  color: #5f6d7f;
+}
+
+.beeButtonWarning {
+  background: @WarningColor;
+}
+
+.beeButtonWarning:hover {
+  background: @WarningHoverColor;
+}
+
+.beeButtonSuccess {
+  background: @SuccessColor;
+}
+
+.beeButtonSuccess:hover {
+  background: @SuccessHoverColor;
+}
+
+.beeButtonError {
+  background: @ErrorColor;
+}
+
+.beeButtonError:hover {
+  background: @ErrorHoverColor;
+}
+
+
+.beeButtonDisabled:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

@@ -1,0 +1,16 @@
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: #3D5FF9;
+  border-color: #3D5FF9;
+}
+.el-cascader-node__label {
+  color: #3D5FF9;
+}
+.el-cascader-node__postfix, .el-cascader-node__prefix {
+  color: #3D5FF9;
+}
+.el-cascader .el-input.is-focus .el-input__wrapper {
+  box-shadow: 0 0 0 1px #3D5FF9;
+}
+.el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 1px #3D5FF9;
+}

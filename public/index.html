@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="./favicon.ico">
+  <title>图纸通&百度网盘</title>
+  <script src="./resource/vue/vue.js"></script>
+  <script src="./resource/vue/vuerouter.js"></script>
+  <script src="./resource/vue/vuex.js"></script>
+  <link rel="stylesheet" href="./resource/element-plus@v2.2.19/index.css">
+  <script src="./resource/element-plus@v2.2.19/icons-vue.js"></script>
+  <script src="./resource/element-plus@v2.2.19/zh-cn.js"></script>
+  <script src="./resource/element-plus@v2.2.19/element-plus.js"></script>
+</head>
+<style>
+  html {
+    height: 100%;
+  }
+
+  #vIndex {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .ztsTxt-tc-cntz {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.65);
+  }
+
+  .ztsTxt-tc-cntz .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+  }
+
+  /* 20220225 新增loading start */
+  .zloadingz {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -72px;
+    margin-top: -72px;
+  }
+
+  .indexLoading {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 50%;
+    margin-top: -50px;
+  }
+</style>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+      Please enable it to continue.</strong>
+  </noscript>
+  <!-- 多页面配置必须项(请注意:每个页面的id必须不一样,且和对应的mian.js中的id对应) -->
+  <div id="vIndex"></div>
+  <div class="ztsTxt-tc-cntz" id="appzIndex">
+    <div class="indexLoading">
+      <img style="display: block; margin: 0px auto;" src="./pubImg/load-blue.gif" width="60px;">
+      <p style="font-size: 16px; color: rgb(77, 158, 250); text-align: center; margin-top: 15px;">loading...</p>
+    </div>
+  </div>
+</body>
+
+</html>

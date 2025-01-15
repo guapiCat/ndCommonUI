@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8efa68c6","path":"/uiMd/message.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":3,"title":"轻提示只支持js方式调用","slug":"轻提示只支持js方式调用","link":"#轻提示只支持js方式调用","children":[]}],"git":{},"filePathRelative":"uiMd/message.md"}');export{e as data};

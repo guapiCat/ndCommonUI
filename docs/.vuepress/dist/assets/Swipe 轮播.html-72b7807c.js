@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-74f61bcf","path":"/componentAppMD/Swipe%20%E8%BD%AE%E6%92%AD.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentAppMD/Swipe 轮播.md"}');export{t as data};

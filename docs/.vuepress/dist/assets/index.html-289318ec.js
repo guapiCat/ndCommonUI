@@ -1,0 +1,1 @@
+import{_ as a,o as t,c,d as e,e as n}from"./app-df2347b2.js";const o={},r=e("h3",{id:"app组件库",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#app组件库","aria-hidden":"true"},"#"),n(" APP组件库")],-1),s=[r];function d(_,i){return t(),c("div",null,s)}const l=a(o,[["render",d],["__file","index.html.vue"]]);export{l as default};

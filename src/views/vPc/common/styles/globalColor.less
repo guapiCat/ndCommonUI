@@ -1,0 +1,46 @@
+@keyframes enterScaleFrame {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
+@keyframes leaveScaleFrame {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0)
+  }
+}
+.fade-leave-active {
+  animation: leaveScaleFrame 0.2s normal !important;
+}
+// 基础色
+@basicColor: #4791fe;
+// 基础悬浮色
+@basicHoverColor: #3687fe;
+// 默认色
+@basicDefaultColor: #d2d8e0;
+// 默认悬浮色
+@basicDefaultHoverColor: #c3cede;
+// 基础线条
+@basicBorderColor: #c9d0da;
+// 基础色
+@PrimaryColor: #4791fe;
+// 警告色
+@WarningColor: #fc996a;
+// 警告悬浮色
+@WarningHoverColor: #FF8040;
+// 成功色
+@SuccessColor: #12b97b;
+// 成功悬浮色
+@SuccessHoverColor: #019858;
+// 错误色
+@ErrorColor: #FF4545;
+// 错误悬浮色
+@ErrorHoverColor: #a30000;
+// 开始缩放动画
+@fadeEnter: enterScaleFrame 0.2s normal;

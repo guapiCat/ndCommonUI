@@ -1,0 +1,61 @@
+@import '../styles/globalColor';
+
+.beeInputContainer {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+
+  > div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .beeInput {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid @basicBorderColor;
+    box-sizing: border-box;
+    color: #333333;
+    display: inline-block;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    transition: border 0.8s;
+  }
+
+  .beeInput:focus {
+    border: 1px solid @basicColor;
+  }
+
+  .beeInput::placeholder {
+    color: #D0D0D0;
+  }
+}
+
+.beeInputClear {
+  position: absolute;
+  right: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #dcdfe6;
+}
+
+.beeInput:disabled {
+  cursor: not-allowed;
+}
+
+.beeInputAfter {
+  position: absolute;
+  right: 0;
+  padding: 0 10px;
+}
+
+.beeInputBefore {
+  position: absolute;
+  left: 0;
+  padding: 0 10px;
+}

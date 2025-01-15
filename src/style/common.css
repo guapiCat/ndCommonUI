@@ -1,0 +1,532 @@
+@charset "utf-8";
+
+/* CSS Document */
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+
+body {
+	cursor: default;
+	-webkit-text-size-adjust: none;
+	font: 12px/1.5 Arial, "Microsoft YaHei";
+	position: relative;
+	background: #f4f5fc;
+}
+
+body,
+html {
+	height: 100%;
+	position: relative;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+a {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+textarea,
+input {
+	border: 0;
+	background: none;
+	-webkit-appearance: none;
+}
+
+textarea {
+	outline: 0;
+	border: 0;
+	resize: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+	font-weight: normal;
+	font-style: normal;
+}
+
+strong,
+b {
+	font-style: normal;
+}
+
+ol,
+ul,
+li {
+	list-style: none outside none;
+}
+
+caption {
+	text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+q:before,
+q:after {
+	content: "";
+}
+
+abbr,
+acronym {
+	border: 0;
+}
+
+a {
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+input {
+	font-family: Arial, SimSun;
+}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"]>input[type="button"]::-moz-focus-inner {
+	border: none;
+	padding: 0;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+em,
+i {
+	font-style: normal;
+}
+
+.fLe {
+	float: left;
+	_display: inline;
+}
+
+.fRi {
+	float: right;
+	_display: inline;
+}
+
+
+/* 处理safari浏览器密码框样式问题 */
+input::-webkit-credentials-auto-fill-button {
+	display: none !important;
+	visibility: hidden;
+	pointer-events: none;
+	position: absolute;
+	right: 0;
+}
+
+
+.p-c-close,
+.c-h-button,
+.t-smshidden,
+.van-field__button,
+.d-d-cb,
+.s-b-confirm,
+.s-b-cancel, 
+.cPointer{
+	cursor: pointer;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-evenly {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.flex-align-center {
+	display: flex;
+	align-items: center;
+}
+
+.flex-cloumn {
+	flex-direction: column;
+}
+
+.cp {
+	cursor: pointer;
+	user-select: none;
+}
+
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+	width: 6px;
+	height: 0;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.02);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.vipFunction-tc-table table {
+	border: 1px solid #e2e2e2;
+}
+
+.vipFunction-tc-table thead tr,
+.vipFunction-tc-table tbody tr:nth-child(even) {
+	background: #f6f6f6;
+}
+
+.vipFunction-tc-table tbody tr:nth-child(odd) {
+	background: #fff;
+}
+
+.vipFunction-tc-table thead th,
+.vipFunction-tc-table tbody td {
+	border-right: 1px solid #e2e2e2;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+	padding: 0 10px;
+}
+
+.vipFunction-tc-table thead th {
+	color: #999999;
+}
+
+.vipFunction-tc-table tbody td {
+	line-height: 22px;
+}
+
+.vipFunction-tc-table thead tr th:last-child,
+.vipFunction-tc-table tbody tr td:last-child {
+	border-right: 0;
+}
+
+
+.appvipFunction-tc-table table {
+	border: 1px solid #e2e2e2;
+}
+
+.appvipFunction-tc-table thead tr,
+.appvipFunction-tc-table tbody tr:nth-child(even) {
+	background: #f6f6f6;
+}
+
+.appvipFunction-tc-table tbody tr:nth-child(odd) {
+	background: #fff;
+}
+
+.appvipFunction-tc-table thead th,
+.appvipFunction-tc-table tbody td {
+	border-right: 1px solid #e2e2e2;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+	padding: 0 10px;
+}
+
+.appvipFunction-tc-table thead th {
+	color: #333;
+}
+
+.appvipFunction-tc-table tbody td {
+	line-height: 22px;
+}
+
+.appvipFunction-tc-table thead tr th:last-child,
+.appvipFunction-tc-table tbody tr td:last-child {
+	border-right: 0;
+}
+
+
+.van-dialog__content--isolated {
+	min-height: 70px !important;
+}
+
+.van-dialog__message {
+	padding: 0!important;
+	font-size: 16px!important;
+}
+
+.van-dialog__confirm {
+	color: #1880E3!important;
+}
+
+
+
+
+
+
+
+/* CSS Document */
+.textcent {
+	font-size:12px;
+	color:#333;
+	text-align: center;
+	margin-bottom: 10px;
+}
+body,html{height:100%;position: relative;}
+
+/*  */
+.mr5{margin-right: 5px;}
+.mt16{margin-top: 16px;}
+.ml25{margin-left: 25px;}
+
+/*  */
+.pr{position: relative;}
+
+/* 头部 导航栏 */
+.header-wrap .header{height:56px;width: 100%;padding:0 16px;box-sizing: border-box;color:#03164c;
+	position: relative;text-align: center;line-height: 56px;font-size: 0px;}
+.header-wrap .header .top-tit{display: inline-block;font-size: 18px;max-width: calc(100% - 128px);white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+/* 导航栏左侧图标 */
+.header-wrap .header .top-left{position: absolute;top:0px;left:16px;height:56px;}
+.header-wrap .header .top-left .ico{display: inline-block;width:32px;height:32px;margin-top: 11px;}
+.header-wrap .header .top-left .top-icoBack{background: url(../images/top-icoBack.png) center no-repeat;
+	background-size: 24px auto;}
+/* 导航栏右侧图标 */
+.header-wrap .header .top-right{position: absolute;top:0px;right:16px;height:56px;}
+.header-wrap .header .top-right .ico{display: inline-block;width:32px;height:32px;margin-top: 11px;}
+.header-wrap .header .top-right .top-icoHelp{background: url(../images/top-icoHelp.png) center no-repeat;
+	background-size: 24px auto;}
+.header-wrap .header .top-right .top-icoGraphicMode{background: url(../images/ico-graphic-mode.png) center no-repeat;
+	background-size: 24px auto;}
+.header-wrap .header .top-right .top-icoListMode{background: url(../images/ico-list-mode.png) center no-repeat;
+	background-size: 24px auto;}
+
+/*  */
+.section-wrap0{height:calc(100% - 56px);overflow-y: auto;}
+
+/* radio */
+.radio{display: inline-block;width:16px;height:16px;vertical-align: middle;}
+.ico-radio{background: url(../images/ico-radio.png) center no-repeat;background-size: 16px auto;}
+.ico-radio-s{background: url(../images/ico-radio-s.png) center no-repeat;background-size: 16px auto;}
+
+/*  */
+.shadow{position: fixed;width:100%; height:100%; top:0px;left:0px;background: rgba(0,0,0,.5);z-index: 6;display: none;}
+
+/* 弹框 */
+.tc-box{background: rgba(242,242,242,.8);-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;position: fixed;top:50%;
+	left:50%;z-index: 12;display: none;}
+.ts-tcCnt{padding: 20px;text-align: center;border-bottom: 1px solid #9d9ea1;}
+.ts-tcCnt p{color: #333;font-size: 16px;line-height: 32px;display: inline-block;text-align: left;}
+.ts-tcCnt p.center{text-align: center;}
+.ts-tcBtn span,
+.ts-tcBtn a{display: inline-block;float: left;text-align: center;height: 55px;line-height: 55px;color: #007aff;font-size: 16px;
+	box-sizing: border-box;border-left: 1px solid #9d9ea1;font-weight: bold;}
+.ts-tcBtn span:first-child,
+.ts-tcBtn a:first-child{border-left: 0;}
+.ts-tcBtn01 span,
+.ts-tcBtn01 a{width: 100%;}
+.ts-tcBtn02 span,
+.ts-tcBtn02 a{width: 50%;}
+.ts-tcBtn03 span,
+.ts-tcBtn03 a{width: 33.33%;}
+
+.common-tc{width:300px;margin-left: -150px;margin-top: -100px;}   /* 公共弹框大小*/
+
+/* 无数据 */
+.noData{width:100%;position: absolute;left:0px;top:50%; margin-top: -115px}
+.noData img{display: block;margin:0 auto;}
+.noData p{font-size: 14px;color:#333;text-align: center;margin-top: 15px;}
+
+/* 黑色半透明文字提示 */
+.tsTxt-tc{text-align: center;position: fixed;top: 50%;left: 0;right: 0;margin-top: -27px;display: none;z-index: 9;}
+.tsTxt-tc.height1{margin-top: -27px;}
+.tsTxt-tc.height2{margin-top: -63px;}
+.tsTxt-tc-cnt{display: inline-block;padding: 15px 20px;background: rgba(0,0,0,0.65);-moz-border-radius: 5px;-webkit-border-radius: 5px;
+	border-radius: 5px;}
+.tsTxt-tc-cnt .txt{font-size: 16px;color: #fff;line-height: 24px;}
+.zzshadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+	z-index: 6;
+}
+.erwcodeGen {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+	z-index: 15;
+}
+
+
+/* 公共修改样式 */
+.noData {
+	top: 310px!important;
+}
+.zicoClose {
+	background: url(../images/mrclose.png) center no-repeat;
+	background-size: 36px auto;
+}
+.top-icoClose {
+	background: url(../images/mrclose.png) center no-repeat;
+	background-size: 36px auto;
+	position: absolute;
+    left: 16px;
+    top: 8px;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+}
+.zico {
+	display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-top: 8px;
+    border-radius: 50%;
+}
+.zico-clear-input {
+	width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 14px;
+    right: 35px;
+	background: url(../images/ico-clear-input.png) center no-repeat;
+	background-size: 16px auto;
+  }
+
+.rigcentDown {
+	background: url(../images/zdownload.png) center no-repeat;
+	background-size: 36px auto;
+	/* background-color: #cccccc; */
+	width: 36px;
+    height: 36px;
+    border-radius: 18px;
+	position: absolute;
+	top: 50%;
+	right: 16px;
+	transform: translateY(-50%);
+}
+.top-icotoup {
+	background: url(../images/getBack.png) center no-repeat;
+	background-size: 36px auto;
+	/* background-color: #cccccc; */
+	position: absolute;
+    left: 16px;
+    top: 8px;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+}

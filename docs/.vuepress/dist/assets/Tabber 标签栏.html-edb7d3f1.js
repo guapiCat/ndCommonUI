@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3ca792c3","path":"/componentAppMD/Tabber%20%E6%A0%87%E7%AD%BE%E6%A0%8F.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentAppMD/Tabber 标签栏.md"}');export{t as data};

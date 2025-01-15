@@ -1,0 +1,5 @@
+import{_ as e,o as a,c as n,a as d}from"./app-df2347b2.js";const s={},i=d(`<h4 id="前端公共组件库" tabindex="-1"><a class="header-anchor" href="#前端公共组件库" aria-hidden="true">#</a> 前端公共组件库</h4><h6 id="如果想正常安装依赖-请翻墙后-使用npm进行安装。cnpm无法安装vuepress最新插件。" tabindex="-1"><a class="header-anchor" href="#如果想正常安装依赖-请翻墙后-使用npm进行安装。cnpm无法安装vuepress最新插件。" aria-hidden="true">#</a> 如果想正常安装依赖，请翻墙后，使用npm进行安装。cnpm无法安装vuepress最新插件。</h6><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>版本信息：
+ElementPlus：2.2.19
+Vant：4.3.1
+Node: 17.9.1
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h6 id="组件打包-使用-参考规范文档" tabindex="-1"><a class="header-anchor" href="#组件打包-使用-参考规范文档" aria-hidden="true">#</a> 组件打包/使用，参考规范文档</h6>`,4),r=[i];function t(c,l){return a(),n("div",null,r)}const o=e(s,[["render",t],["__file","index.html.vue"]]);export{o as default};

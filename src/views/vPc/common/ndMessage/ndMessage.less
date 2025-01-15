@@ -1,0 +1,91 @@
+@import "../styles/globalColor.less";
+
+.newDimMessageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+
+  .newDimMessageContent {
+    animation: @fadeEnter;
+    text-align: left;
+    z-index: 9999;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    max-width: 450px;
+    min-width: 220px;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+
+    &.info {
+      background: #fff;
+      border: 1px solid @basicHoverColor;
+      color: @basicColor;
+    }
+
+    &.warning {
+      background: #fff;
+      border: 1px solid @WarningHoverColor;
+      color: @WarningColor;
+    }
+
+    &.success {
+      background: #fff;
+      border: 1px solid @SuccessHoverColor;
+      color: @SuccessColor;
+    }
+
+    &.error {
+      background: #fff;
+      border: 1px solid @ErrorHoverColor;
+      color: @ErrorColor;
+    }
+
+    .MessageContentIcon {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      margin-right: 8px;
+    }
+
+    .MessageContentIcon.success {
+      background-image: url("../images/ico-success.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+
+    .MessageContentIcon.warning {
+      background-image: url("../images/ico-warning.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+
+    .MessageContentIcon.info {
+      background-image: url("../images/ico-info.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      display: inline-block;
+    }
+
+    .MessageContentIcon.error {
+      background-image: url("../images/ico-error.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      display: inline-block;
+    }
+
+    .messageContent {
+      flex: 1;
+    }
+  }
+}

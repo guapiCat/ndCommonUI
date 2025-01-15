@@ -1,0 +1,1 @@
+import{_ as o,r as s,o as r,i as t,U as _,V as c}from"./app-df2347b2.js";const p={props:{},setup(e,{slots:a}){return{}}};function d(e,a,l,u,i,v){const n=s("van-calendar");return r(),t(n,_(c(e.$attrs)),null,16)}const m=o(p,[["render",d],["__scopeId","data-v-a45e6745"],["__file","nd-calendar.vue"]]);export{m as n};

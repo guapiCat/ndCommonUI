@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-dcd45bae","path":"/componentMD/PC%E4%B8%8B%E6%8B%89%E9%80%89%E6%8B%A9%E6%96%B0%E5%BB%BA%E7%BB%84%E4%BB%B6.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentMD/PC下拉选择新建组件.md"}');export{t as data};

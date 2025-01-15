@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-2c982057","path":"/componentAppMD/Empty%20%E7%A9%BA%E7%8A%B6%E6%80%81.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentAppMD/Empty 空状态.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-4891d988","path":"/componentMD/%E9%80%89%E6%8B%A9%E6%88%96%E6%8B%96%E6%8B%BD%E5%8A%9F%E8%83%BD%E7%BB%84%E4%BB%B6.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentMD/选择或拖拽功能组件.md"}');export{t as data};

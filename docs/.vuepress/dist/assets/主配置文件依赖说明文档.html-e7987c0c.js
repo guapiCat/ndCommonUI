@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-36ad5397","path":"/standardMD/%E4%B8%BB%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%BE%9D%E8%B5%96%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"standardMD/主配置文件依赖说明文档.md"}');export{t as data};

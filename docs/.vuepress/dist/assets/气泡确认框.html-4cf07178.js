@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7949a4d7","path":"/componentMD/%E6%B0%94%E6%B3%A1%E7%A1%AE%E8%AE%A4%E6%A1%86.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentMD/气泡确认框.md"}');export{t as data};

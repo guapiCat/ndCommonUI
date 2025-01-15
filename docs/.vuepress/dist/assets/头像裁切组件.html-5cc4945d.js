@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-dda2dc72","path":"/componentMD/%E5%A4%B4%E5%83%8F%E8%A3%81%E5%88%87%E7%BB%84%E4%BB%B6.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentMD/头像裁切组件.md"}');export{t as data};

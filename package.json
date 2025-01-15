@@ -1,0 +1,65 @@
+{
+  "name": "ndAppCommonUI",
+  "version": "0.1.132",
+  "private": false,
+  "main": "nd-lib/lib-app/ndAppCommonUI.umd.js",
+  "files": [
+    "nd-lib/lib-app"
+  ],
+  "publishConfig": {
+    "registry": "http://10.122.92.43:8088/repository/newdim-hs/"
+  },
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "dev:pc": "vue-cli-service serve --mode devPc",
+    "serve": "vue-cli-service serve",
+    "build:pro:all": "vue-cli-service build --mode proAll",
+    "build:pro:app": "vue-cli-service build --mode proApp",
+    "build:pro:pc": "vue-cli-service build --mode proPc",
+    "build:dev:all": "vue-cli-service build --mode devAll",
+    "build:dev:app": "vue-cli-service build --mode devApp",
+    "build:dev:pc": "vue-cli-service build --mode devPc",
+    "build:test:all": "vue-cli-service build --mode testAll",
+    "build:test:app": "vue-cli-service build --mode testApp",
+    "build:test:pc": "vue-cli-service build --mode testPc",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "lib:pro:pc": "vue-cli-service build --target lib --dest nd-lib/lib --name ndCommonUI src/packages/PC/index.js",
+    "lib:pro:app": "vue-cli-service build --target lib --dest nd-lib/lib-app --name ndAppCommonUI src/packages/APP/index.js",
+    "publish:pc": "node ./script/publish.js --type pc",
+    "publish:app": "node ./script/publish.js --type app"
+  },
+  "dependencies": {
+    "@popperjs/core": "~2.11.5",
+    "@vueuse/core": "~8.9.4",
+    "axios": "~0.27.2",
+    "core-js": "~3.6.5",
+    "cropperjs": "~1.5.13",
+    "element-plus": "2.2.19",
+    "html2canvas": "~1.4.1",
+    "qrcodejs2": "~0.0.2",
+    "sass-loader": "~8.0.2",
+    "vant": "4.3.1",
+    "vue": "~3.3.4"
+  },
+  "devDependencies": {
+    "@purtuga/esm-webpack-plugin": "~1.5.0",
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vuepress/plugin-container": "2.0.0-beta.67",
+    "@vuepress/plugin-docsearch": "2.0.0-beta.67",
+    "@vuepress/plugin-nprogress": "2.0.0-beta.67",
+    "@vuepress/plugin-register-components": "2.0.0-beta.67",
+    "@vuepress/plugin-search": "2.0.0-beta.67",
+    "@vuepress/theme-default": "2.0.0-beta.67",
+    "babel-plugin-import": "1.13.5",
+    "node-sass": "4.14.1",
+    "sass-loader": "8.0.2",
+    "uglifyjs-webpack-plugin": "2.2.0",
+    "unplugin-auto-import": "0.8.7",
+    "unplugin-vue-components": "0.20.1",
+    "vue-lazyload": "3.0.0",
+    "vuepress": "2.0.0-beta.67"
+  }
+}

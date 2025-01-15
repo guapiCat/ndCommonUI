@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 20211209 新增 end */
+.sharedHistory-bottom{height: calc(100% - 64px);box-sizing: border-box;background: #fff;border-top-right-radius: 15px;border-top-left-radius: 15px;}
+.sharedHistory-bottom .tit{height:72px;line-height: 72px; font-size: 18px; color:#03164c;font-weight:bold;padding:0 16px;box-sizing: border-box;}
+.sharedHistory-bottom .tit .ico-mode{float: right;width:32px;height:32px;margin-top: 20px;}
+.sharedHistory-bottom .tit .ico-graphic-mode{background: url(../images/ico-graphic-mode.png) center no-repeat;background-size: 24px auto;}
+.sharedHistory-bottom .tit .ico-list-mode{background: url(../images/ico-list-mode.png) center no-repeat;background-size: 24px auto;}
+.sharedHistory-bottom .file-list{height: calc(100% - 72px);padding:0 16px;box-sizing: border-box;}
+.sharedHistory-bottom .zfile-list{height: calc(100% - 0);overflow-y: auto;padding:0 16px;box-sizing: border-box;}
+
+
+/* 20220413 新增 start */
+.sharedHistory-bottom .file-list.list-xg{height: calc(100% - 16px);}
+.sharedHistory-bottom .file-list.list-xg li{padding:16px 16px 16px 78px; margin-top: 10px;}
+.sharedHistory-bottom .file-list.list-xg li .file-name{height:18px; -webkit-line-clamp:1; line-clamp:1;}
+.sharedHistory-bottom .file-list li .file-date span{padding-left:8px;}
+.sharedHistory-bottom .file-list.list-xg li .file-pic{top:21px;}/* 20220420 更改 */
+/* 20220413 新增 end */
+
+.sharedHistory-bottom .file-list li .file-pic{position: absolute;top:16px;left:16px;width:48px;height: 48px;border-radius:5px;text-align: center;line-height: 48px;overflow: hidden;}
+.sharedHistory-bottom .file-list li .file-pic img{display: inline-block;max-width: 100%;max-height: 100%;vertical-align: middle;}
+.sharedHistory-bottom .file-list li .file-name{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;line-clamp: 2;-webkit-box-orient: vertical;
+	font-size: 16px; color:#03164c;width:100%;line-height: 20px;height:40px; word-wrap: break-word; word-break: break-all;}
+.sharedHistory-bottom .file-list li .file-date{font-size: 12px;color:#aaabb0;margin-top: 2px;}
+
+.sharedHistory-bottom .file-list li .file-format{ color: #aaabb0; font-size: 14px;} /* 20220420 新增 */
+
+.sharedHistory-bottom .file-list li .ico-share{position: absolute;top:28px;right:14px;width:32px;height:32px;background: url(../images/ico-share.png) center no-repeat;
+	background-size: 24px auto;}
+
+.sharedHistory-bottom .file-list li{background: #f5f9fa;border-radius:12px;padding:16px 66px 16px 78px;box-sizing: border-box;position: relative;position: relative;margin-bottom: 1px;}
+

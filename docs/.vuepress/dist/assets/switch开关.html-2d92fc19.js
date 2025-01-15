@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-14a05dad","path":"/componentAppMD/switch%E5%BC%80%E5%85%B3.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentAppMD/switch开关.md"}');export{t as data};

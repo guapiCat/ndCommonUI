@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-a7042e6e","path":"/componentMD/%E6%96%87%E5%AD%97%E6%8F%90%E7%A4%BA.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentMD/文字提示.md"}');export{t as data};

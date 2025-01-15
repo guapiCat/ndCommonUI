@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-4baf4ed7","path":"/componentAppMD/Tab%20%E6%A0%87%E7%AD%BE%E9%A1%B5.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentAppMD/Tab 标签页.md"}');export{t as data};

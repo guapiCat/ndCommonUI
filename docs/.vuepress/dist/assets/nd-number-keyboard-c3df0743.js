@@ -1,0 +1,1 @@
+import{_ as n,r as a,o as s,i as _,U as t,V as c}from"./app-df2347b2.js";const p={setup(e,{slots:o}){}};function d(e,o,u,m,b,l){const r=a("van-number-keyboard");return s(),_(r,t(c(e.$attrs)),null,16)}const f=n(p,[["render",d],["__scopeId","data-v-91c93fa8"],["__file","nd-number-keyboard.vue"]]);export{f as n};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-9ce982e0","path":"/componentAppMD/TextEllipsis%20%E6%96%87%E6%9C%AC%E7%9C%81%E7%95%A5.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentAppMD/TextEllipsis 文本省略.md"}');export{t as data};

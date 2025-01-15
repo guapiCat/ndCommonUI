@@ -1,0 +1,608 @@
+.bee_selectMemberTreeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 12;
+}
+
+.bee_selectMemberTreeContainer .checkbox {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.bee_selectMemberTreeContainer .person-structure-box li a.person-node:hover {
+    background: #ecf0f8;
+}
+
+.bee_selectMemberTreeContainer .tc-cmnTit .tc-close:hover {
+    background: #e0e0e0;
+}
+
+.bee_selectMemberTreeContainer .person-box .noResult {
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+    margin-top: 200px;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box {
+    letter-spacing: 0.8px;
+    /*height: calc(48%);*/
+    height: calc(100% - 52px);
+}
+
+.bee_selectMemberTreeContainer .searchByname-box li {
+    padding: 12px 12px 12px 48px;
+    box-sizing: border-box;
+    font-size: 0px;
+    position: relative;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box li:hover {
+    background: #f1f3f7;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box li .checkbox {
+    width: 16px;
+    height: 16px;
+    background: url(../images/add-assembly.png) -8px -8px no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box li .default {
+    background: url(../images/add-assembly.png) -41px -63px no-repeat;
+}
+
+
+.bee_selectMemberTreeContainer .searchByname-box li .name {
+    /*line-height: 30px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box li .name .person-img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    /*text-align: center;*/
+    /*line-height: 20px;*/
+    /*vertical-align: middle;*/
+    margin-right: 8px;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box li .name .person-img img {
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*max-width: 100%;*/
+    /*max-height: 100%;*/
+    width: 100%;
+    height: 100%;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box li .name .content {
+    flex: 1;
+    overflow: auto;
+    background: none;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box li .name .userName {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box li .name .deptName {
+    line-height: 24px;
+    font-size: 12px;
+    color: #9ea2a9;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box li .name span .key-word {
+    color: #4791FE;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box li .post {
+    padding-left: 30px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #9ea2a9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bee_selectMemberTreeContainer .tc-add-person-2 {
+    /*width: 666px;*/
+    /*margin-top: -332px;*/
+    /*margin-left: -333px;*/
+}
+
+.bee_selectMemberTreeContainer .tc-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 5px;
+    z-index: 12;
+    -moz-box-shadow: 0px 0px 13px rgba(2, 2, 2, 0.28);
+    -webkit-box-shadow: 0px 0px 13px rgba(2, 2, 2, 0.28);
+    box-shadow: 0px 0px 13px rgba(2, 2, 2, 0.28);
+}
+
+.bee_selectMemberTreeContainer .tc-cmnTit {
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #3e3e3e;
+    letter-spacing: 1px;
+}
+
+.bee_selectMemberTreeContainer .tc-cmnTit .tc-close {
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+    color: #5b6175;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 9px;
+    border-radius: 5px;
+}
+
+.bee_selectMemberTreeContainer .tc-cmnCnt {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.bee_selectMemberTreeContainer .person-box {
+    float: left;
+    width: 411px;
+    height: 563px;
+    border-right: 1px solid #c9d0da;
+    box-sizing: border-box;
+}
+
+.bee_selectMemberTreeContainer .search-person-box {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.bee_selectMemberTreeContainer .search-person-box input {
+    width: 100%;
+    padding: 0 58px 0px 5px;
+    box-sizing: border-box;
+    background: url(../images/ico-add-person-search.png) right center no-repeat;
+    border: 1px solid #b3b3b3;
+    height: 32px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.bee_selectMemberTreeContainer .search-person-box input:focus {
+    border-color: #4791FE;
+}
+
+.bee_selectMemberTreeContainer .search-person-box .clear {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    width: 14px;
+    height: 14px;
+    background: url(../images/add-control.png) -26px -62px no-repeat;
+    cursor: pointer;
+}
+
+.bee_selectMemberTreeContainer .person-structure-box {
+    letter-spacing: 0.8px;
+    /*height: calc(48%);*/
+    height: calc(100% - 52px);
+}
+
+.bee_selectMemberTreeContainer .person-structure-box ul {
+    font-size: 0px;
+    /*display: inline-block;*/
+    min-width: 360px;
+}
+
+.bee_selectMemberTreeContainer .person-structure-box li {
+    box-sizing: border-box;
+}
+
+.bee_selectMemberTreeContainer .person-structure-box li .person-node {
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 20px;
+    font-size: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bee_selectMemberTreeContainer .ico-total-depart {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/add-assembly.png) -3px -5px no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.bee_selectMemberTreeContainer .person-structure-box li .person-node span {
+    vertical-align: middle;
+    font-size: 14px;
+    display: inline-block;
+    max-width: 290px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:#000;
+}
+
+.bee_selectMemberTreeContainer .person-node.select {
+    background: #ecf0f8;
+}
+
+.bee_selectMemberTreeContainer .person-structure-box li .person-node b {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bee_selectMemberTreeContainer .node-checkbox {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/add-assembly.png) -8px -8px no-repeat !important;
+    vertical-align: middle;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.bee_selectMemberTreeContainer .node-checkbox-s {
+    background: url(../images/add-assembly.png) -41px -63px no-repeat !important;;
+}
+
+.bee_selectMemberTreeContainer .person-structure-box li .person-node .node-switch {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.bee_selectMemberTreeContainer .node-switch.open {
+    background: url(../images/add-control.png) -76px -5px no-repeat !important;
+}
+
+.bee_selectMemberTreeContainer .node-switch.close {
+    background: url(../images/add-control.png) -95px -5px no-repeat !important;
+}
+
+.bee_selectMemberTreeContainer .ico-depart {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/add-control.png) -40px -5px no-repeat !important;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.bee_selectMemberTreeContainer .person-structure-box li .person-node span {
+    vertical-align: middle;
+    font-size: 14px;
+    display: inline-block;
+    max-width: 290px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bee_selectMemberTreeContainer .tc-add-person-2 .selected-person {
+    border: none;
+}
+
+.bee_selectMemberTreeContainer .selected-person {
+    float: left;
+    width: 300px;
+    box-sizing: border-box;
+    border-left: 1px solid #c9d0da;
+    height: 563px;
+}
+
+.bee_selectMemberTreeContainer .selected-person .mark {
+    font-size: 13px;
+    color: #777;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    height: 52px;
+    line-height: 52px;
+    float: left;
+}
+
+.bee_selectMemberTreeContainer .selected-person .clearAll {
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    height: 52px;
+    line-height: 52px;
+    float: right;
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.bee_selectMemberTreeContainer .selected-person ul {
+    /*height: calc(48%);*/
+    height: calc(100% - 52px);
+}
+
+.bee_selectMemberTreeContainer .selected-person li {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    font-size: 0px;
+}
+
+.bee_selectMemberTreeContainer .selected-person li .person-img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.bee_selectMemberTreeContainer .selected-person li .person-img img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+.bee_selectMemberTreeContainer .selected-person li span {
+    vertical-align: middle;
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bee_selectMemberTreeContainer .selected-person li .del {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    width: 14px;
+    height: 14px;
+    background: url(../images/add-control.png) -3px -62px no-repeat !important;
+    cursor: pointer;
+}
+
+.bee_selectMemberTreeContainer .selected-person li:hover {
+    background: #f2f2f2;
+}
+
+.bee_selectMemberTreeContainer .tc-btn-box {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.bee_selectMemberTreeContainer .tc-btn-box div {
+    border-top: 1px solid #c9d0da;
+    padding: 15px 20px;
+}
+
+.bee_selectMemberTreeContainer .tc-add-person .tc-btn-box label {
+    float: left;
+}
+
+.bee_selectMemberTreeContainer .tc-add-person .tc-btn-box div.dropDown {
+    padding: 0px;
+    border-top: none;
+    text-align: left;
+}
+
+.bee_selectMemberTreeContainer .dropDown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bee_selectMemberTreeContainer .w170 {
+    width: 170px;
+}
+
+.bee_selectMemberTreeContainer .dropDown .value {
+    height: 32px;
+    display: inline-block;
+    border: 1px solid #d0d0d0;
+    line-height: 32px;
+    padding: 0 30px 0px 10px;
+    font-size: 14px;
+    background: url(../images/dropDown-arrow.png) center right no-repeat #fff !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bee_selectMemberTreeContainer .dropDown-content {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 5px 0px;
+    top: 33px;
+    left: 0px;
+    display: none;
+    z-index: 5;
+    border-radius: 5px;
+}
+
+.bee_selectMemberTreeContainer .dropDown-content p {
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 15px;
+    cursor: pointer;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bee_selectMemberTreeContainer .tc-btn-box a {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 15px;
+    min-width: 38px;
+    height: 30px;
+    line-height: 30px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.bee_selectMemberTreeContainer .tc-btn-box a.btn-sure {
+    background: #4791fe;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.bee_selectMemberTreeContainer .tc-btn-box a.btn-cancel {
+    background: #d2d8e0;
+    color: #5f6d7f;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.bee_selectMemberTreeContainer .halfChecked {
+    background: url(../images/add-assembly.png) -41px -8px no-repeat !important;
+}
+
+.person-structure-box li .person-node .ico-total-depart {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/add-assembly.png) -3px -5px no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.bee_selectMemberTreeContainer .person-structure-box li .person-node {
+    cursor: default !important;
+}
+
+.bee_selectMemberTreeContainer .node-checkbox-no {
+    background: url(../images/add-assembly.png) -77px -63px no-repeat !important;
+    cursor: default;
+}
+
+.bee_selectMemberTreeContainer .node-checkbox-s-no {
+    background: url(../images/add-assembly.png) -110px -63px no-repeat !important;
+    cursor: default;
+}
+
+.bee_selectMemberTreeContainer .node-radiobox {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/add-assembly.png) -8px -35px no-repeat !important;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.bee_selectMemberTreeContainer .searchByname-box .node-radiobox {
+    width: 16px;
+    height: 16px;
+    background: url(../images/add-assembly.png) -8px -35px no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.bee_selectMemberTreeContainer .node-radiobox-no {
+    background: url(../images/add-assembly.png) -77px -35px no-repeat !important;
+    cursor: no-drop;
+}
+
+.bee_selectMemberTreeContainer .node-radiobox-s-no {
+    background: url(../images/add-assembly.png) -110px -91px no-repeat !important;
+    cursor: no-drop;
+}
+
+.bee_selectMemberTreeContainer .node-radiobox-s {
+    background: url(../images/add-assembly.png) -41px -91px no-repeat !important;
+}
+.dropDown-content p {
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 15px;
+    cursor: pointer;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dropDown-content p:hover {
+    background: #f1f1f1;
+}
+.checkbox {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.ico-checkbox{
+    background: url("../images/add-assembly.png") -9px -9px no-repeat;
+}
+.ico-checkbox02-s{
+    background: url("../images/add-assembly.png") -42px -64px no-repeat;
+}

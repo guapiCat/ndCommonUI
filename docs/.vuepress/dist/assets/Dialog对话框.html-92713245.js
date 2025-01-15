@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-56b63d28","path":"/componentMD/Dialog%E5%AF%B9%E8%AF%9D%E6%A1%86.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentMD/Dialog对话框.md"}');export{t as data};

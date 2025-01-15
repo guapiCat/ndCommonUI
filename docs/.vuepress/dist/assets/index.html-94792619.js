@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-255e45fc","path":"/standardMD/","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":3,"title":"规范文档说明","slug":"规范文档说明","link":"#规范文档说明","children":[]}],"git":{},"filePathRelative":"standardMD/index.md"}');export{e as data};

@@ -1,0 +1,1 @@
+import{_ as o,r as t,o as c,c as n,b as s}from"./app-df2347b2.js";const r={};function _(a,l){const e=t("testCookie");return c(),n("div",null,[s(e)])}const m=o(r,[["render",_],["__file","cookie.html.vue"]]);export{m as default};

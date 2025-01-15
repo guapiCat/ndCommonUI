@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-58ae9eeb","path":"/componentMD/%E6%8A%98%E5%8F%A0%E9%9D%A2%E6%9D%BF.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentMD/折叠面板.md"}');export{e as data};

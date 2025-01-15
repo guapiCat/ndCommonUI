@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0e7a7ab0","path":"/standardMD/vue%E9%A6%96%E9%A1%B5%E5%8A%A0%E8%BD%BD%E4%BC%98%E5%8C%96.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":3,"title":"vue首页加载优化","slug":"vue首页加载优化","link":"#vue首页加载优化","children":[]}],"git":{},"filePathRelative":"standardMD/vue首页加载优化.md"}');export{e as data};

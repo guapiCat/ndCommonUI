@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8ddb3d1e","path":"/pluginsMd/","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":3,"title":"插件集说明文档","slug":"插件集说明文档","link":"#插件集说明文档","children":[]}],"git":{},"filePathRelative":"pluginsMd/index.md"}');export{e as data};

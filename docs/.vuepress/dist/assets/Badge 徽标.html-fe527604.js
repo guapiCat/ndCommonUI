@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6aba61cc","path":"/componentAppMD/Badge%20%E5%BE%BD%E6%A0%87.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"componentAppMD/Badge 徽标.md"}');export{t as data};

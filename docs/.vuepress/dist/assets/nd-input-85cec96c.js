@@ -1,0 +1,8 @@
+import{_ as i,r as l,o as p,c as u,f,b as c,R as _,w as r,m as s,N as m,j as h,v,d as S,k as y}from"./app-df2347b2.js";const g={name:"nd-input",props:{modelValue:{type:String,default:""},isError:{type:Boolean,default:!1},errorTips:{type:String,default:""},SearchRight:{type:Boolean,default:!1}},emits:["update:modelValue","input"],setup(n,{emit:a,slots:e}){return{slots:e,onInput:d=>{a("update:modelValue",d),a("input",d)}}}},V={class:"nd-input"};function I(n,a,e,t,d,R){const o=l("el-input");return p(),u("div",V,[f(` <el-input v-bind="$attrs" v-on="$attrs" v-model="modelValue" class="nd-input-el" :class="{'nd-input-error':isError}">\r
+      <template v-slot:prepend v-if="slots.prepend">\r
+        <slot name="prepend"></slot>\r
+      </template>\r
+      <template v-slot:append v-if="slots.append">\r
+        <slot name="append"></slot>\r
+      </template>\r
+    </el-input> `),c(o,m(n.$attrs,{SearchRight:e.SearchRight,modelValue:e.modelValue,onInput:t.onInput,class:e.SearchRight&&e.isError?"nd-input-el isSearchR nd-input-error":e.isError?"nd-input-el nd-input-error":e.SearchRight?"nd-input-el isSearchR":"nd-input-el"}),_({_:2},[t.slots.prepend?{name:"prepend",fn:r(()=>[s(n.$slots,"prepend",{},void 0,!0)]),key:"0"}:void 0,t.slots.append?{name:"append",fn:r(()=>[s(n.$slots,"append",{},void 0,!0)]),key:"1"}:void 0,t.slots.prefix?{name:"prefix",fn:r(()=>[s(n.$slots,"prefix",{},void 0,!0)]),key:"2"}:void 0,t.slots.suffix?{name:"suffix",fn:r(()=>[s(n.$slots,"suffix",{},void 0,!0)]),key:"3"}:void 0]),1040,["SearchRight","modelValue","onInput","class"]),h(S("div",{class:"nd-inp-errorTips"},y(e.errorTips),513),[[v,e.isError&&e.errorTips]])])}const x=i(g,[["render",I],["__scopeId","data-v-d7ee1ad6"],["__file","nd-input.vue"]]);export{x as n};
